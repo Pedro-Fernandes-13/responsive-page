@@ -1,0 +1,201 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'VT323', monospace;
+  scroll-behavior: smooth;
+}
+
+header{
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+  width: auto;
+  height: 90px;
+  border-bottom: 2px solid black;
+}
+body{
+  background-color: rgb(240, 250, 214);
+}
+h1{
+  text-align: center;
+}
+li{
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 3px;
+}
+li button{
+  width: 110px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.box{
+  border-radius: 10px;
+  width: 500px;
+  height: 200px;
+  border: 2px solid black;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* .slider{ */
+/* } */
+
+.box:hover{
+  box-shadow: 6px 3px 3px black;
+  cursor: pointer;
+}
+.gamesboxs{
+  display: flex;
+  justify-content: center;
+}
+.game1{
+  background-color: rebeccapurple;
+}
+.game2{
+  background-color: rgb(218, 159, 70);
+}
+.game3{
+  background-color: rgb(51, 153, 82);
+}
+
+/* medias */
+@media screen and (max-width:1547px) {
+  .box{
+    display: block;
+    margin-top: 10px;
+  }
+  .big{
+      align-self: center;
+  }
+}
+
+
+/* end medias */
+
+
+.boxbig{
+  border:  2px solid black;
+  display: flex;
+  height: 700px;
+  justify-content: flex-start;
+  height: auto;
+}
+
+.big{
+  width: 700px;
+  min-width: 700px;
+  height: 700px;
+  margin-left: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: darkslategray;
+}
+.boxbig2{
+  border: 2px solid black;
+  display: flex;
+  justify-content: flex-end;
+  height: auto;
+}
+.big2{
+  margin-right: 20px;
+  width: 700px;
+  min-width: 700px;
+  height: 700px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: rgb(89, 8, 92);
+}
+.footer{
+  text-align: center;
+  display: block;
+}
+.world:hover{
+  box-shadow: 6px 3px 3px black;
+  cursor: pointer;
+}
+.text{
+  display: flex;
+  font-size: 25px;
+  max-height: 700px;
+  border: 2px solid black;
+}
+.form{
+  display: flex;
+  justify-content: flex-start;
+}
+form{
+  width: 400px;
+  margin: auto;
+}
+.block{
+  display: block;
+  width: 100%;
+  margin: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  border: 2px solid black;
+}
+#text,#email{
+  height: 30px;
+  background-color: #f1774a;
+  font-size: 20px;
+}
+#btnsubmit{
+  width: 70px;
+  height: 30px;
+  background-color: orangered;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#textarea{
+  background-color: aquamarine;
+  font-size: 20px;
+}
+
+/* section btns gallery */
+.btn-left-rigth{
+  display: flex;
+  justify-content: center;
+}
+.btn-gallery{
+  border: none;
+  background-color: transparent;
+  margin-left: 40px;
+  cursor: pointer;
+  font-size: 60px;
+}
+.btn-gallery:active{
+  font-size: 50px;
+}
+
+#gameover{
+  width: 100px;
+  height: 40px;
+  margin: auto;
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+pre{
+  font-size: 25px;
+}
+fieldset{
+  width: 700px;
+  text-align: center;
+  margin-left: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 30px;
+}
